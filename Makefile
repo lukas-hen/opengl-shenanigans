@@ -5,10 +5,10 @@ LIB=-lglfw3
 CFLAGS=-Wall -O2
 
 build:
-	$(CC) $(CFLAGS) -o main main.c glad.c file.c $(INC_DIR) $(LIB_DIR) $(LIB)
+	$(CC) $(CFLAGS) -o main src/main.c src/glad.c src/file.c $(INC_DIR) $(LIB_DIR) $(LIB)
 
 debug:
-	$(CC) $(CFLAGS) -std=c99 -g -o main main.c glad.c file.c $(INC_DIR) $(LIB_DIR) $(LIB)
+	$(CC) $(CFLAGS) -std=c99 -g -o main src/main.c src/glad.c src/file.c $(INC_DIR) $(LIB_DIR) $(LIB)
 
 run:
 	./main
