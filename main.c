@@ -1,10 +1,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <math.h>
 #include <stdio.h>
-#include <stdint.h>
 #include <stdbool.h>
-#include <unistd.h>
 
 #include "file.h"
 
